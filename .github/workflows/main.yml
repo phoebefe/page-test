@@ -45,7 +45,7 @@ jobs:
           GH_TOKEN: ${{secrets.GITHUB_TOKEN}}
           script: |
           
-            const deployURL = 'https://phoebe.github.io/preview-test/';
+            const deployURL = 'https://phoebe.github.io/page-test/';
             const comments = [
               `## Deploy Preview`,
               `🔥 **check your project preview here!** : `
